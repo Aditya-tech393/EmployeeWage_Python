@@ -1,9 +1,10 @@
 import random
-
 def check_attendance(attendance):
     if attendance==0:
-        print('Employee is Absent')
+        return 0
     if attendance==1:
-        print('Employee is Present')
-atd_check=random.randint(0,1)
-check_attendance(atd_check)
+        print("The wage is: ")
+        return 20*8
+atd_random=random.randint(0,1)
+print(check_attendance(atd_random))
+
